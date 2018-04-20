@@ -4,9 +4,6 @@
 #define pi pair<int,int>
 #define pll pair<ll,ll>
 #define vl vector< ll >
-#define bug(a) cout<<a<<endl;
-#define bug2(a,b) cout<<a<<" "<<b<<endl;
-#define bug3(a,b,c) cout<<a<<" "<<b<<" "<<c<<endl;
 using namespace std;
 void dfs(vector< vector<int> > &bomb,bool visit[],int b,int &temp)
 {
